@@ -1,7 +1,9 @@
-import { cva } from "class-variance-authority"
+import { cva } from "class-variance-authority";
 
-const buttonStyles = cva(["bg-secondary hover:bg-secondary-hover"])
+const buttonStyles = cva(["hover:bg-secondary-hover", "transition-colors"])
 
 export function Button() {
     return <button className={buttonStyles()} />
 }
+
+export default Button
