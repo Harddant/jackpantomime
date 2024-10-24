@@ -12,7 +12,7 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <h1 className='text-xl text-orange font-poppins'>Jack Pantomime</h1>
+          <h1 className='text-xl font-poppins'>Jack Pantomime</h1>
         </div>
         <div>
         <button>

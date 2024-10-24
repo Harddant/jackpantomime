@@ -10,7 +10,7 @@ const SideBar = () => {
                     <img src={portrait} className='w-full rounded-full' />
                 </a>
             </div>
-            <div className='flex flex-row justify-center gap-4 pt-4 text-orange'>
+            <div className='flex flex-row justify-center gap-4 pt-4'>
                 <a href="https://www.youtube.com/@jackpantomime" target='_blank'>
                     <button>
                         <Youtube />
@@ -23,7 +23,7 @@ const SideBar = () => {
                 </a>
                 <a href="https://www.tiktok.com/@jackpantomime" target='_blank'>
                     <button>
-                        <span class="[&>svg]:h-5 [&>svg]:w-5">
+                        <span className="[&>svg]:h-5 [&>svg]:w-5">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"

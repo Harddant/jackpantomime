@@ -15,7 +15,7 @@ export function Carousel() {
 
     return (
         <section className="embla">
-            <p className='mt-4 text-orange font-poppins'> Latest Releases! </p>
+            <p className='mt-4 font-poppins font-semibold text-xl'> Latest Releases! </p>
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
                     {youtubeLinks.map((youtubeLink, index) => (

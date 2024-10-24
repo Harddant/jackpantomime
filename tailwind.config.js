@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         'orange': '#F79348',
+        'custom' : '#FAF9F7',
       },
       fontFamily: {
         poppins: "'Poppins', static"
