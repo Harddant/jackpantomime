@@ -1,13 +1,17 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Button from './components/Button'
+import SideBar from './components/SideBar'
+import Grid from './components/Grid'
+import Socials from './components/Socials'
 
 function App() {
 
   return (
     <div className='max-h-screen flex flex-col'>
       <Navbar />
-      <Button />
+      <SideBar />
+      <Grid />
+      <Socials />
     </div>
   )
 }
