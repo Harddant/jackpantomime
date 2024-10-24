@@ -1,8 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import SideBar from './components/SideBar'
-import Grid from './components/Grid'
-import Socials from './components/Socials'
+import { Carousel } from './components/Carousel'
 
 function App() {
 
@@ -10,8 +9,7 @@ function App() {
     <div className='max-h-screen flex flex-col'>
       <Navbar />
       <SideBar />
-      <Grid />
-      <Socials />
+      <Carousel />
     </div>
   )
 }

@@ -11,6 +11,9 @@ export default {
       colors: {
         'orange': '#F79348',
       },
+      fontFamily: {
+        poppins: "'Poppins', static"
+      },
     },
   },
   plugins: [
