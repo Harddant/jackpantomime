@@ -12,11 +12,11 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <h1 className='text-xl font-poppins'>Jack Pantomime</h1>
+          <h1 className='text-xl font-Oswald'>Jack Pantomime</h1>
         </div>
         <div>
         <button>
-            <Menu className='border-opacity-0 hover:bg-slate-100 transition-colors duration-150 rounded-full w-7 h-7 mr-6 focus:shadow-outline '/>
+            <Menu className='border-opacity-0 rounded-full w-7 h-7 mr-6 focus:shadow-outline '/>
           </button>
         </div>
       </div>

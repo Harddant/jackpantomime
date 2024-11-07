@@ -1,5 +1,6 @@
 import colors from 'tailwindcss/colors'
 
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,11 +10,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'orange': '#F79348',
+        'orange' : '#F79348',
         'custom' : '#FAF9F7',
       },
       fontFamily: {
-        poppins: "'Poppins', static"
+        poppins: "'Poppins', static",
+        Oswald: "'Oswald', sans-serif",
       },
     },
   },

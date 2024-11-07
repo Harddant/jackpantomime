@@ -10,7 +10,7 @@ export const ScrollBtn = () => {
 
   return (
     <section className='object-bottom mt-48'>
-        <p className='pb-4 font-poppins'></p>
+        <p className='pb-4 font-Oswald'></p>
         <button 
           onClick={handleScroll}
           className='scroll-down'
