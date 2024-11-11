@@ -74,4 +74,27 @@ body {
       top: 90%;
     }
   }
+
+  .menu-btn {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 100vw;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px gray solid;
+    overflow: hidden;
+  }
+
+  .menu-btn ::before {
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+    width: 15px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+  }
   
