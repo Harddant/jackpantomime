@@ -33,12 +33,6 @@ function App() {
               </div>
           </section>
 
-          <section id='merch' className='snap-start h-screen w-full'>
-              <div>
-                  <AboutMe title='shop for merch'/>
-              </div>
-          </section>
-
           <section id='tour' className='snap-start h-screen w-full'>
               <div>
                   <AboutMe title='check out the tour'/>
