@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import { Menu } from 'lucide-react'
 import MenuBtn from './MenuBtn.jsx'
 
@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className='flex flex-row justify-center items-center w-screen'>
             <div className='flex gap-10 lg:gap-20 justify-between pt-7 mb-6 mx-4 w-11/12 lg:w-1/2'>
               <div className='flex gap-4 items-center flex-shrink-0'>
-                <a href="/">
+                <a href="/public">
                   <img src={logo} className='h-6' />
                 </a>
               </div>

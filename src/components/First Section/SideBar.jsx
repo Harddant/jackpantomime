@@ -1,12 +1,12 @@
 import { Instagram, Youtube } from 'lucide-react'
-import portrait from '../assets/Portrait.jpg'
+import portrait from '../../assets/Portrait.jpg'
 
 
 const SideBar = () => {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col justify-center items-center">
-                <a href="/" className='w-1/3'>
+                <a href="/public" className='w-1/3'>
                     <img src={portrait} className='w-full rounded-full' />
                 </a>
             </div>

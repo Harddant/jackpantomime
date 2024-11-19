@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MenuItem from './MenuItem';
+import MenuItem from './MenuItem.jsx';
 
 const MenuBtn = () => {
     const handleScroll = (url) => {
@@ -12,7 +12,6 @@ const MenuBtn = () => {
     const [menuLinks, setMenuLinks] = useState([
         { url: 'about', name: 'About' },
         { url: 'jacks-music', name: 'Jacks Music' },
-        { url: 'merch', name: 'Merch' },
         { url: 'tour', name: 'Tour' },
     ]);
 

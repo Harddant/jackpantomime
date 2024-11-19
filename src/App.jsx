@@ -1,11 +1,13 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import SideBar from './components/SideBar'
-import { Carousel } from './components/Carousel'
-import Discover from './components/Discover'
-import ScrollBtn from './components/ScrollBtn'
-import AboutMe from './components/AboutMe'
-import Music from "./components/Music.jsx";
+import './App.css';
+import Navbar from './components/First Section/Navbar.jsx';
+import SideBar from './components/First Section/SideBar.jsx';
+import { Carousel } from './components/First Section/Carousel.jsx';
+import Discover from './components/First Section/Discover.jsx';
+import ScrollBtn from './components/ScrollBtn';
+import AboutMe from './components/Second Section/AboutMe.jsx';
+import Music from "./components/Third Section/Music.jsx";
+import Tours from "./components/Fourth Section/Tours.jsx";
+import Footer from './components/Fourth Section/Footer.jsx';
 
 function App() {
 
@@ -13,11 +15,11 @@ function App() {
       <div className="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
           <section className="snap-start h-screen w-full relative">
               <div className="relative h-screen bg-cover bg-[url('./assets/Gradient.svg')]">
-                  <Navbar/>
-                  <SideBar/>
-                  <Carousel/>
-                  <Discover/>
-                  <ScrollBtn/>
+                  <Navbar />
+                  <SideBar />
+                  <Carousel />
+                  <Discover />
+                  <ScrollBtn />
               </div>
           </section>
 
@@ -27,15 +29,16 @@ function App() {
               </div>
           </section>
 
-          <section id='jacks-music' className='snap-start h-screen w-full'>
-              <div>
-                  <AboutMe title='Listen to Jacks music now'/>
+          <section id='jacks-music' className="snap-start h-screen w-full bg-cover bg-[url('./assets/Gradient.svg')]">
+              <div title='Listen to Jacks music now'>
+                  <Music />
               </div>
           </section>
 
-          <section id='tour' className='snap-start h-screen w-full'>
-              <div>
-                  <AboutMe title='check out the tour'/>
+          <section id='tour' className="snap-start h-screen w-full bg-cover bg-[url('./assets/Gradient.svg')]">
+              <div title='check out the tour'>
+                  <Tours />
+                  <Footer />
               </div>
           </section>
 

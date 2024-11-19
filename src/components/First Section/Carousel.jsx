@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import { VideoCard } from './VideoCard';
+import { VideoCard } from './VideoCard.jsx';
 import Autoplay from 'embla-carousel-autoplay'
 
 

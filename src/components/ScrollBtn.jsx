@@ -1,7 +1,8 @@
 import React from 'react'
 
 export const ScrollBtn = () => {
-  const handleScroll = () => {
+
+    const handleScroll = () => {
     const nextSection = document.querySelector('.snap-start:nth-child(2)');
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
@@ -10,7 +11,6 @@ export const ScrollBtn = () => {
 
   return (
     <section className='object-bottom mt-48'>
-        <p className='pb-4 font-Oswald'></p>
         <button 
           onClick={handleScroll}
           className='scroll-down'

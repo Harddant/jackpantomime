@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         'orange' : '#F79348',
+        'orange-700' : '#e46c12',
         'custom' : '#FAF9F7',
       },
       fontFamily: {
