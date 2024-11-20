@@ -7,6 +7,7 @@ import ScrollBtn from './components/ScrollBtn';
 import AboutMe from './components/Second Section/AboutMe.jsx';
 import Music from "./components/Third Section/Music.jsx";
 import Tours from "./components/Fourth Section/Tours.jsx";
+import React from "react";
 
 
 function App() {
@@ -19,28 +20,29 @@ function App() {
                   <SideBar />
                   <Carousel />
                   <Discover />
-                  <ScrollBtn />
               </div>
+              <ScrollBtn index={2} />
           </section>
 
           <section className="snap-start h-screen w-full bg-cover bg-[url('./assets/Gradient.svg')]">
               <div className="h-full w-full">
                   <AboutMe title='About Jack Pantomime'/>
               </div>
+              <ScrollBtn index={3} />
           </section>
 
-          <section id='jacks-music' className="snap-start h-screen w-full bg-cover bg-[url('./assets/Gradient.svg')]">
-              <div title='Listen to Jacks music now'>
+          <section id='jacks-music' className="snap-start h-screen w-screen bg-cover bg-[url('./assets/Gradient.svg')]">
+              <div className="h-full w-full">
                   <Music />
               </div>
+              <ScrollBtn index={4} />
           </section>
 
           <section id='tour' className="snap-start h-screen w-full bg-cover bg-[url('./assets/Gradient.svg')]">
-              <div title='check out the tour'>
+              <div className="h-full w-full">
                   <Tours />
               </div>
           </section>
-
       </div>
   )
 }

@@ -5,12 +5,7 @@ import ScrollBtn from "../ScrollBtn.jsx";
 
 const AboutMe = ({title}) => {
 
-    const handleScroll = () => {
-        const nextSection = document.querySelector('.snap-start:nth-child(2)');
-        if (nextSection) {
-            nextSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+
     return (
         <>
             <div id='about' className="flex flex-col items-center">
@@ -30,9 +25,10 @@ const AboutMe = ({title}) => {
                     Capturing the beloved by many (Indie) Rock sound while giving his own twist to it.
                 </p>
             </div>
-            <div>
-                <ScrollBtn handleScroll={handleScroll} className='scroll-down'
-                />
+            <div className="flex items-center justify-center text-center">
+                <p className="text-2xl font-Oswald mt-10 ml-4 mr-4">
+                    Jack is an indie solo artist crafting soulful melodies, blending heartfelt lyrics with raw passion.
+                </p>
             </div>
         </>
     );

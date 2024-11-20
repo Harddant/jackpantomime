@@ -1,6 +1,8 @@
 import React from 'react';
 import Blossom from '../../assets/Blossom.jpg'
 import {Youtube} from "lucide-react";
+import ScrollBtn from "../ScrollBtn.jsx";
+
 
 export const Music = () => {
     return (
@@ -17,8 +19,8 @@ export const Music = () => {
                 <img src={Blossom} alt="Blossom EP cover"/>
             </div>
 
-            <div className="flex items-center justify-center gap-4 pt-4">
-                <button className="flex-row-reverse bg-orange hover:bg-orange-700 text-white font-bold py-4 px-4 rounded-full inline-flex items-center gap-1">
+            <div className="grid grid-cols-2 place-items-center items-center justify-center gap-4 pt-12">
+                <button className="place-self-end w-fit flex-row-reverse bg-orange hover:bg-orange-700 text-white font-bold py-4 px-4 rounded-full inline-flex items-center gap-1">
                         SoundCloud
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             viewBox="0 0 640 512">
@@ -27,8 +29,7 @@ export const Music = () => {
                     </svg>
                 </button>
 
-
-                <button className="flex-row-reverse bg-green-600 hover:bg-green-800 rounded-full font-bold text-white py-4 px-4 inline-flex items-center gap-1">
+                <button className="place-self-start w-fit flex-row-reverse bg-green-600 hover:bg-green-800 rounded-full font-bold text-white py-4 px-8 inline-flex items-center gap-1">
                     Spotify
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                          className="bi bi-spotify" viewBox="0 0 16 16">
@@ -37,7 +38,7 @@ export const Music = () => {
                     </svg>
                 </button>
 
-                <button className="flex-row-reverse bg-red-600 hover:bg-red-800 rounded-full font-bold text-white py-4 px-4 inline-flex items-center gap-1">
+                <button className=" col-span-2 w-fit flex-row-reverse bg-red-600 hover:bg-red-800 rounded-full font-bold text-white py-4 px-6 inline-flex items-center gap-1">
                     Youtube
                     <Youtube/>
                 </button>

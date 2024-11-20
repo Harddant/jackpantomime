@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 
 const MenuItem = ({ name, url, handleScroll }) => {
     return (
@@ -8,6 +9,12 @@ const MenuItem = ({ name, url, handleScroll }) => {
         </li>
     );
 };
+
+MenuItem.propTypes = {
+    name: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+    handleScroll: PropTypes.func.isRequired,
+}
 
 export default MenuItem;
 

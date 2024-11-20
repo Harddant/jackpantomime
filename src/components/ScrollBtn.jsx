@@ -1,22 +1,26 @@
-import React from 'react'
+import PropTypes from "prop-types";
 
-export const ScrollBtn = () => {
+const ScrollBtn = ({ index }) => {
 
     const handleScroll = () => {
-    const nextSection = document.querySelector('.snap-start:nth-child(3)');
+    const nextSection = document.querySelector(`.snap-start:nth-child(${index})`);
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
-    <section className='object-bottom mt-48'>
-        <button 
-          onClick={handleScroll}
-          className='scroll-down'
-        />
-    </section>
+        <div className='relative bottom-[1vh]'>
+            <button
+              onClick={handleScroll}
+              className='scroll-down'
+            />
+        </div>
   )
+}
+
+ScrollBtn.propTypes = {
+    index: PropTypes.number.isRequired,
 }
 
 export default ScrollBtn
