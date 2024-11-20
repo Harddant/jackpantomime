@@ -3,7 +3,7 @@ import React from 'react'
 export const ScrollBtn = () => {
 
     const handleScroll = () => {
-    const nextSection = document.querySelector('.snap-start:nth-child(2)');
+    const nextSection = document.querySelector('.snap-start:nth-child(3)');
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }

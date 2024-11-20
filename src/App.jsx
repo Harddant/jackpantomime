@@ -7,7 +7,7 @@ import ScrollBtn from './components/ScrollBtn';
 import AboutMe from './components/Second Section/AboutMe.jsx';
 import Music from "./components/Third Section/Music.jsx";
 import Tours from "./components/Fourth Section/Tours.jsx";
-import Footer from './components/Fourth Section/Footer.jsx';
+
 
 function App() {
 
@@ -38,7 +38,6 @@ function App() {
           <section id='tour' className="snap-start h-screen w-full bg-cover bg-[url('./assets/Gradient.svg')]">
               <div title='check out the tour'>
                   <Tours />
-                  <Footer />
               </div>
           </section>
 
