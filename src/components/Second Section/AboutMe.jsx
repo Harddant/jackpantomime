@@ -22,7 +22,7 @@ const AboutMe = ({title}) => {
             </div>
             <div className="flex items-center justify-center text-center">
                 <p className="text-2xl font-Oswald mt-10 ml-4 mr-4">
-                    Capturing the beloved by many (Indie) Rock sound while giving his own twist to it.
+                    Capturing the beloved by many Indie sound while giving his own twist to it.
                 </p>
             </div>
             <div className="flex items-center justify-center text-center">
